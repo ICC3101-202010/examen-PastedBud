@@ -29,8 +29,8 @@ namespace examenPastedBud
 
             if (jugador.Lesionado == true)
             {
-                
-                PlayerInjured += Partido.OnPlayerInjured;
+                Entrenador entrenador = new Entrenador();
+                PlayerInjured += entrenador.OnPlayerInjured;
                 OnPlayerInjured(jugador);
             }
             else

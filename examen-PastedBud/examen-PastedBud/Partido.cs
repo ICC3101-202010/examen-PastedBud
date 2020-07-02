@@ -42,11 +42,16 @@ namespace examenPastedBud
         public List<int> Resultado { get => resultado; set => resultado = value; }
         public bool Nacional { get => nacional; set => nacional = value; }
 
-
-        public static void OnPlayerInjured(object source, JugadorEventArgs e)
+        public void Simular()
         {
-            Console.WriteLine("El Jugador " +e.Jugador.Nombre + "se ha Lesionado!");
+            Console.WriteLine("Simulación No Implementada");
+        }
 
+
+        public static void OnPlayerCalledInjured(object source, JugadorEventArgs e)
+        {
+            Console.WriteLine("El Jugador " + e.Jugador.Nombre + "se ha Lesionado!");
+            Console.WriteLine("Su Entrenador llama a un Cambio");
         }
     }
 }
