@@ -1,7 +1,7 @@
 ﻿using System;
 namespace examenPastedBud
 {
-    public class Entrenador : Persona, Entrenadores
+    public class Entrenador : Persona, IEntrenadores
     {
         private int puntos_tactica;
 

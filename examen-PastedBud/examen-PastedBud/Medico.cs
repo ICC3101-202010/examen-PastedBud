@@ -1,7 +1,7 @@
 ﻿using System;
 namespace examenPastedBud
 {
-    public class Medico : Persona, Medicos
+    public class Medico : Persona, IMedicos
     {
         public int puntos_experiencia;
 
