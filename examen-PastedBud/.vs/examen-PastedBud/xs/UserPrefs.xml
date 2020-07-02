@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{151DDB95-ED75-48D9-BE1E-03710140692A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="examen-PastedBud/JugadorEventArgs.cs">
+    <Files>
+      <File FileName="examen-PastedBud/Program.cs" Line="1" Column="1" />
+      <File FileName="examen-PastedBud/Partido.cs" Line="1" Column="1" />
+      <File FileName="examen-PastedBud/Persona.cs" Line="1" Column="1" />
+      <File FileName="examen-PastedBud/Equipo.cs" Line="77" Column="40" />
+      <File FileName="examen-PastedBud/Jugador.cs" Line="11" Column="26" />
+      <File FileName="examen-PastedBud/Entrenador.cs" Line="4" Column="52" />
+      <File FileName="examen-PastedBud/Medico.cs" Line="45" Column="9" />
+      <File FileName="examen-PastedBud/Medicos.cs" Line="7" Column="35" />
+      <File FileName="examen-PastedBud/Entrenadores.cs" Line="9" Column="1" />
+      <File FileName="examen-PastedBud/JugadorEventArgs.cs" Line="4" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="examen-PastedBud" expanded="True">
+            <Node name="examen-PastedBud" expanded="True">
+              <Node name="JugadorEventArgs.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.examen-PastedBud PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

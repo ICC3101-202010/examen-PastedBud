@@ -1,0 +1,6 @@
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/bin/Debug/examen-PastedBud.exe
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/bin/Debug/examen-PastedBud.pdb
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/obj/Debug/examen-PastedBud.csprojAssemblyReference.cache
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/obj/Debug/examen-PastedBud.csproj.CoreCompileInputs.cache
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/obj/Debug/examen-PastedBud.exe
+/Users/Carlo/Desktop/examen-PastedBud/examen-PastedBud/examen-PastedBud/obj/Debug/examen-PastedBud.pdb
