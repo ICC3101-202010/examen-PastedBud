@@ -38,8 +38,8 @@
     <Compile Include="Jugador.cs" />
     <Compile Include="Entrenador.cs" />
     <Compile Include="Medico.cs" />
-    <Compile Include="Medicos.cs" />
-    <Compile Include="Entrenadores.cs" />
+    <Compile Include="IMedicos.cs" />
+    <Compile Include="IEntrenadores.cs" />
     <Compile Include="JugadorEventArgs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
