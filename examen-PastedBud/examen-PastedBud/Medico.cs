@@ -53,9 +53,9 @@ namespace examenPastedBud
 
         public override void InfoPersona(Equipo equipo)
         {
-            Console.WriteLine("El Medico" + equipo.Medicos[0].Nombre);
+            Console.WriteLine("El Medico: " + equipo.Medicos[0].Nombre);
             Console.WriteLine("Edad: " + equipo.Medicos[0].Edad);
-            Console.WriteLine("De Nacionalidad " + equipo.Medicos[0].Nación);
+            Console.WriteLine("De Nacionalidad: " + equipo.Medicos[0].Nación);
             Console.WriteLine("Con Sueldo: " + equipo.Medicos[0].Sueldo);
             Console.WriteLine("Puntos de Experiencia: " + equipo.Medicos[0].puntos_experiencia);
         }

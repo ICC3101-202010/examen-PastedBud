@@ -42,7 +42,9 @@ namespace examenPastedBud
             {
                 if (Corroborar_Nacionalidad(this) == true)
                 {
+                    Console.WriteLine("");
                     Console.WriteLine("Equipo Conformado Correctamente");
+                    Console.WriteLine("");
                 }
                 else
                 {
@@ -52,7 +54,9 @@ namespace examenPastedBud
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Equipo Conformado Correctamente");
+                Console.WriteLine("");
             }
         }
 
@@ -94,14 +98,14 @@ namespace examenPastedBud
         {
             if (equipo.Nacional == true)
             {
-                Console.WriteLine("El Equipo " + equipo.Nombre + "es Nacional");
+                Console.WriteLine("El Equipo " + equipo.Nombre + " es Nacional");
             }
             else
             {
-                Console.WriteLine("El Equipo " + equipo.Nombre + "es de Liga");
+                Console.WriteLine("El Equipo " + equipo.Nombre + " es de Liga");
             }
             Console.WriteLine("");
-            Console.WriteLine(" Se Conforma por:");
+            Console.WriteLine("Se Conforma por: ");
             Console.WriteLine("");
 
             //Entrenador

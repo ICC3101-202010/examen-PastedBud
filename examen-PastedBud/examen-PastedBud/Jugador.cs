@@ -46,6 +46,7 @@ namespace examenPastedBud
                 Console.WriteLine("Puntos de Ataque: " + jugador.Puntos_ataque);
                 Console.WriteLine("Puntos de Defensa" + jugador.Puntos_defensa);
                 Console.WriteLine("Numero de Camiseta: " + jugador.Numero_camiseta);
+                Console.WriteLine("");
             }
         }
     }

@@ -42,9 +42,10 @@ namespace examenPastedBud
         public List<int> Resultado { get => resultado; set => resultado = value; }
         public bool Nacional { get => nacional; set => nacional = value; }
 
-        public void Simular()
+        public static void Simular()
         {
             Console.WriteLine("Simulación No Implementada");
+            
         }
 
 
