@@ -8,20 +8,59 @@ namespace examenPastedBud
         private string nombre;
         private bool nacional;
         private List<Jugador> jugadores = new List<Jugador>();
-        private List<Entrenador> entrenador = new List<Entrenador>();
-        private List<Medico> medico = new List<Medico>();
+        private List<Entrenador> entrenadores = new List<Entrenador>();
+        private List<Medico> medicos = new List<Medico>();
 
 
 
-        public Equipo()
+        public Equipo(string nombre, bool nacional, Jugador jugador1, Jugador jugador2, Jugador jugador3, Jugador jugador4, Jugador jugador5, Jugador jugador6, Jugador jugador7, Jugador jugador8, Jugador jugador9, Jugador jugador10, Jugador jugador11, Jugador jugador12, Jugador jugador13, Jugador jugador14, Jugador jugador15, Entrenador entrenador1, Medico medico1)
         {
+            this.Nombre = nombre;
+            this.Nacional = nacional;
+
+            jugadores.Add(jugador1);
+            jugadores.Add(jugador2);
+            jugadores.Add(jugador3);
+            jugadores.Add(jugador4);
+            jugadores.Add(jugador5);
+            jugadores.Add(jugador6);
+            jugadores.Add(jugador7);
+            jugadores.Add(jugador8);
+            jugadores.Add(jugador9);
+            jugadores.Add(jugador10);
+            jugadores.Add(jugador11);
+            jugadores.Add(jugador12);
+            jugadores.Add(jugador13);
+            jugadores.Add(jugador14);
+            jugadores.Add(jugador15);
+
+            Entrenadores.Add(entrenador1);
+
+            Medicos.Add(medico1);
+
+            if (this.Nacional == true)
+            {
+                if (Corroborar_Nacionalidad(this) == true)
+                {
+                    Console.WriteLine("Equipo Conformado Correctamente");
+                }
+                else
+                {
+                    Console.WriteLine("El Equipo No puede Conformarser por No tener a Todos los Jugadores de la misma Nacionalidad");
+                }
+                
+            }
+            else
+            {
+                Console.WriteLine("Equipo Conformado Correctamente");
+            }
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
         public bool Nacional { get => nacional; set => nacional = value; }
         public List<Jugador> Jugadores { get => jugadores; set => jugadores = value; }
-        public List<Entrenador> Entrenador { get => entrenador; set => entrenador = value; }
-        public List<Medico> Medico { get => medico; set => medico = value; }
+        public List<Entrenador> Entrenadores { get => entrenadores; set => entrenadores = value; }
+        public List<Medico> Medicos { get => medicos; set => medicos = value; }
 
         public bool Corroborar_Nacionalidad(Equipo equipo)
         {

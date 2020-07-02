@@ -32,11 +32,11 @@ namespace examenPastedBud
 
         public override void InfoPersona(Equipo equipo)
         {
-            Console.WriteLine("El Entrenador: " + equipo.Entrenador[0].Nombre);
-            Console.WriteLine("Edad: " + equipo.Entrenador[0].Edad);
-            Console.WriteLine("De Nacionalidad " + equipo.Entrenador[0].Nación);
-            Console.WriteLine("Con Sueldo: " + equipo.Entrenador[0].Sueldo);
-            Console.WriteLine("Puntos Tactica: " + equipo.Entrenador[0].Puntos_tactica);
+            Console.WriteLine("El Entrenador: " + equipo.Entrenadores[0].Nombre);
+            Console.WriteLine("Edad: " + equipo.Entrenadores[0].Edad);
+            Console.WriteLine("De Nacionalidad " + equipo.Entrenadores[0].Nación);
+            Console.WriteLine("Con Sueldo: " + equipo.Entrenadores[0].Sueldo);
+            Console.WriteLine("Puntos Tactica: " + equipo.Entrenadores[0].Puntos_tactica);
         }
     }
 }

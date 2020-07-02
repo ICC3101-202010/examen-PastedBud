@@ -25,11 +25,12 @@ namespace examenPastedBud
 
         public void Evaluar(Jugador jugador)
         {
-            Partido partido = new Partido();
+            
 
             if (jugador.Lesionado == true)
             {
-                PlayerInjured += partido.OnPlayerInjured;
+                
+                PlayerInjured += Partido.OnPlayerInjured;
                 OnPlayerInjured(jugador);
             }
             else
@@ -52,11 +53,11 @@ namespace examenPastedBud
 
         public override void InfoPersona(Equipo equipo)
         {
-            Console.WriteLine("El Medico" + equipo.Medico[0].Nombre);
-            Console.WriteLine("Edad: " + equipo.Medico[0].Edad);
-            Console.WriteLine("De Nacionalidad " + equipo.Medico[0].Nación);
-            Console.WriteLine("Con Sueldo: " + equipo.Medico[0].Sueldo);
-            Console.WriteLine("Puntos de Experiencia: " + equipo.Medico[0].puntos_experiencia);
+            Console.WriteLine("El Medico" + equipo.Medicos[0].Nombre);
+            Console.WriteLine("Edad: " + equipo.Medicos[0].Edad);
+            Console.WriteLine("De Nacionalidad " + equipo.Medicos[0].Nación);
+            Console.WriteLine("Con Sueldo: " + equipo.Medicos[0].Sueldo);
+            Console.WriteLine("Puntos de Experiencia: " + equipo.Medicos[0].puntos_experiencia);
         }
 
         

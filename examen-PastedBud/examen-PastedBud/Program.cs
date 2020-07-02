@@ -6,7 +6,7 @@ namespace examenPastedBud
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine( "BIENVENIDO A NUESTRO SIMULADOR DE PARTIDOS DE FUTBOL!" );
         }
     }
 }
