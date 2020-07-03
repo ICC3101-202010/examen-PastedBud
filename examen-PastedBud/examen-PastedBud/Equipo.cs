@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace examenPastedBud
 {
@@ -45,10 +46,17 @@ namespace examenPastedBud
                     Console.WriteLine("");
                     Console.WriteLine("Equipo Conformado Correctamente");
                     Console.WriteLine("");
+                    Thread.Sleep(2000);
+                    this.Info_Equipo(this);
                 }
                 else
                 {
-                    Console.WriteLine("El Equipo No puede Conformarser por No tener a Todos los Jugadores de la misma Nacionalidad");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("El Equipo No pudo Conformarse por No tener a Todos los Jugadores de la misma Nacionalidad");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Thread.Sleep(2000);
                 }
                 
             }
@@ -57,6 +65,8 @@ namespace examenPastedBud
                 Console.WriteLine("");
                 Console.WriteLine("Equipo Conformado Correctamente");
                 Console.WriteLine("");
+                Thread.Sleep(2000);
+                this.Info_Equipo(this);
             }
         }
 
