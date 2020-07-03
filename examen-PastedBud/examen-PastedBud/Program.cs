@@ -204,51 +204,59 @@ namespace examenPastedBud
                     medico.Nombre = "Carlo Vitali";
                     medico.puntos_experiencia = 99;
                     medico.Sueldo = 999;
-
-                    Equipo equipo = new Equipo("Selección Chilena", true, jugador1, jugador2, jugador3, jugador4, jugador5, jugador6, jugador7, jugador8, jugador9, jugador10, jugador11, jugador12, jugador13, jugador14, jugador15, entrenador, medico);
-                    
-
-                    
-                    string resp1 = "1";
-                    while (resp1 != "2")
+                    try
                     {
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-                        Console.WriteLine("Deseas Corroborar la Nacionalidad del Equipo? ");
-                        Console.WriteLine("1 --> Si");
-                        Console.WriteLine("2 --> No");
-                        Console.WriteLine("");
-                        resp1 = Console.ReadLine();
-                        Console.WriteLine("");
-                        if (resp1 == "1")
+                        Equipo equipo = new Equipo("Selección Chilena", true, jugador1, jugador2, jugador3, jugador4, jugador5, jugador6, jugador7, jugador8, jugador9, jugador10, jugador11, jugador12, jugador13, jugador14, jugador15, entrenador, medico);
+                        string resp1 = "1";
+                        while (resp1 != "2")
                         {
-                            if(equipo.Nacional == true)
+                            Console.WriteLine("");
+                            Console.WriteLine("");
+                            Console.WriteLine("");
+                            Console.WriteLine("Deseas Corroborar la Nacionalidad del Equipo? ");
+                            Console.WriteLine("1 --> Si");
+                            Console.WriteLine("2 --> No");
+                            Console.WriteLine("");
+                            resp1 = Console.ReadLine();
+                            Console.WriteLine("");
+                            if (resp1 == "1")
                             {
-                                if (equipo.Corroborar_Nacionalidad(equipo) == true)
+                                if (equipo.Nacional == true)
                                 {
-                                    Console.WriteLine("Todos Los Jugadores son de la Misma Nacionalidad");
+                                    if (equipo.Corroborar_Nacionalidad(equipo) == true)
+                                    {
+                                        Console.WriteLine("Todos Los Jugadores son de la Misma Nacionalidad");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("No Todos los Jugadores Pueden Jugar!");
+                                    }
                                 }
                                 else
                                 {
-                                    Console.WriteLine("No Todos los Jugadores Pueden Jugar!");
+                                    Console.WriteLine("El Equipo es de Liga y No Requiere Corroboración de la Nacionalidad");
                                 }
+
+                            }
+                            else if (resp1 == "2")
+                            {
+
                             }
                             else
                             {
-                                Console.WriteLine("El Equipo es de Liga y No Requiere Corroboración de la Nacionalidad");
+                                Console.WriteLine("Opción Invalida!");
                             }
-                            
-                        }
-                        else if (resp1 == "2")
-                        {
-
-                        }
-                        else
-                        {
-                            Console.WriteLine("Opción Invalida!");
                         }
                     }
+                    catch (Exception ex)
+                    {
+                        
+                        
+                    }
+                    
+
+                    
+                    
                 }
                 else if (resp == "2")
                 {

@@ -57,6 +57,8 @@ namespace examenPastedBud
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Thread.Sleep(2000);
+                    
+                    throw new System.InvalidOperationException("El Equipo No pudo Conformarse por No tener a Todos los Jugadores de la misma Nacionalidad");
                 }
                 
             }
